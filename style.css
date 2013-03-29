@@ -1,0 +1,43 @@
+body {
+  background-image: url('img/otis_redding.png');
+  font-family: 'Dosis', Arial, sans-serif;
+  font-weight: 200;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.sidebar {
+  margin-left: 40px;
+  float: left;
+}
+
+h1, h2 {
+  font-weight: 200;
+  font-family: 'Dosis', Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+rect {
+  fill: none;
+  stroke: #130a57;
+  stroke-width: 2.5px;
+}
+
+.square:nth-child(2n + 1) rect {
+  stroke: #456bf9;
+}
+
+.svg {
+  float: left;
+}
