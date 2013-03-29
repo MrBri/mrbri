@@ -1,31 +1,5 @@
-var data = [4, 8, 15, 16, 23, 42];
 
-// var body = d3.select('body');
-
-var x = d3.scale.linear()
-  .domain([0, d3.max(data)])
-  .range([0, 420]);
-
-// var chart = body.append('div')
-//     .attr('class', 'chart');
-
-// body.transition()
-//     .duration(2750)
-//     .style('background-color', 'black');
-
-// chart.selectAll('div')
-//     .data(data)
-//   .enter().append('div')
-//     .style('width', x)
-//     .text(String);
-
-var chart = d3.select('body').append('svg')
-    .attr('class', 'chart')
-    .attr('width', 420)
-    .attr('height', 20 * data.length);
-
-
-var w = 960,
+var w = 660,
     h = 500,
     start = Date.now();
 
@@ -41,6 +15,7 @@ var rings = [
 var svg = d3.select("body").append("svg:svg")
     .attr("width", w)
     .attr("height", h)
+    .attr("class", "svg")
   .append("svg:g")
     .attr("transform", "translate(" + w / 2 + "," + h / 2 + ")scale(.6)");
 

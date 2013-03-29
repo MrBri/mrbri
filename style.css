@@ -1,6 +1,31 @@
 body {
-  /*background: #b9c0ff;*/
   background-image: url('img/otis_redding.png');
+  font-family: 'Dosis', Arial, sans-serif;
+  font-weight: 200;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.sidebar {
+  margin-left: 40px;
+  float: left;
+}
+
+h1, h2 {
+  font-weight: 200;
+  font-family: 'Dosis', Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 rect {
@@ -13,16 +38,6 @@ rect {
   stroke: #456bf9;
 }
 
-.chart div {
-  font: 10px san-serif;
-  background-color: steelblue;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  color: white;
-}
-
-.chart rect {
-  stroke: white;
-  fill: steelblue;
+.svg {
+  float: left;
 }
