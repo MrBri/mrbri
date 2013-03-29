@@ -1,0 +1,28 @@
+body {
+  /*background: #b9c0ff;*/
+  background-image: url('img/otis_redding.png');
+}
+
+rect {
+  fill: none;
+  stroke: #130a57;
+  stroke-width: 2.5px;
+}
+
+.square:nth-child(2n + 1) rect {
+  stroke: #456bf9;
+}
+
+.chart div {
+  font: 10px san-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+.chart rect {
+  stroke: white;
+  fill: steelblue;
+}
